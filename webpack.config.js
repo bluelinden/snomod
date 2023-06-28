@@ -12,7 +12,11 @@ const config = {
   plugins: [
     // Add your plugins here
     // Learn more about plugins from https://webpack.js.org/configuration/plugins/
+
   ],
+  externals: {
+    jquery: "jQuery",
+  },
   module: {
     rules: [
       {
