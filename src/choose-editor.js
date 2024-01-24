@@ -6,7 +6,7 @@ postNewLinks.forEach(function (link) {
 		event.preventDefault();
 		Swal.fire({
 			title: 'Choose Your Editor',
-			text: 'Pick the editor you\'d like to use. Need simplicity? Go standard. Want to make a super cool layout? Use the new editor. If you haven\'t learned how to use the new editor, just go with the classic editor.',
+			text: 'Pick the editor you\'d like to use. Need simplicity? Go classic. Want to make a super cool layout? Use the new editor. If you haven\'t learned how to use the new editor, just go with the classic editor.',
 			icon: 'question',
 			showDenyButton: true,
 			confirmButtonColor: '#3a3',
